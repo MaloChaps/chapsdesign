@@ -1,0 +1,256 @@
+/*font*/
+@font-face {
+	font-family: "Telegraf";
+	src: url('../font/Telegraf-UltraLight.otf');
+}
+
+@font-face {
+	font-family: "Avenir-book";
+	src: url('../font/AvenirLTStd-Book.otf');
+}
+
+@font-face {
+	font-family: "Avenir-medium";
+	src: url('../font/AvenirLTStd-Medium.otf');
+}
+
+@font-face {
+	font-family: "Avenir-roman";
+	src: url('../font/AvenirLTStd-Roman.otf');
+}
+
+html *{
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+/*font asset*/
+
+/*header //////////////////////////////////////////////*/
+
+header{
+	width: 100%;
+	padding: 50px 120px 0px 120px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: fixed;
+}
+
+header a img{
+	width: 100%;
+}
+
+header div a{
+	text-decoration: none;
+	font-family: Avenir-roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 100%;
+	color: #000000;
+	margin-right: 50px;
+}
+
+header div a:last-child{
+	margin-right: 0px;
+	background: black;
+	padding: 7px 20px 7px 20px;
+	border-radius: 5px;
+	color: white;
+}
+
+/*hero home //////////////////////////////////////////////*/
+
+.hero-home{
+	width: 100%;
+	height: 75vh;
+	background: #E1E8F2;
+	border-radius: 0px 0px 60px 60px;
+	padding: 50px 120px 0px 120px;
+	margin-bottom: 115px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.text-hero{
+	width: 45%;
+}
+
+h1{	
+	width: 100%;
+	font-family: Telegraf;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 3.2vw;
+	line-height: 140%;
+	/* or 70px */
+	color: #000000;
+	margin-bottom: 60px;
+}
+
+h2, h2 a{
+	font-family: Telegraf;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.844vw;
+	line-height: 100%;
+	/* identical to box height, or 12px */
+	text-decoration: none;
+	letter-spacing: 0.3em;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.hero-illu{
+	width: 45%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-illu img{
+	width: 80%;
+}
+
+/*recent projet /////////////////////////////////// recent*/
+
+.recent-project{
+	padding: 0px 120px 0px 120px;
+	margin-bottom: 115px;
+	width: 100%;
+}
+
+h3{
+	font-family: Telegraf;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 2vw;
+	line-height: 140%;
+	color: #000000;
+	margin-bottom: 40px;
+}
+
+.text-recent{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+}
+
+.line{
+	width: 40px;
+	height: 3px;
+	background: black;
+}
+
+.text-recent p{
+	font-family: Avenir-roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1vw;
+	line-height: 150%;
+	width: 45%;
+	color: #000000;
+}
+
+/*portfolio //////////////////////// portfolio*/
+
+.portfolio-section{
+	width: 100%;
+	padding: 0px 105px 0px 105px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 115px;
+}
+
+.img-portfolio{
+	-o-object-fit: cover;
+	   object-fit: cover;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+
+.box-full{
+	overflow: hidden;
+	width: 100%;
+	height: 70vh;
+	padding: 15px 15px 15px 15px;
+}
+
+.box-medium{
+	overflow: hidden;
+	width: 50%;
+	height: 80vh;
+	padding: 15px 15px 15px 15px;
+}
+
+.box-large{
+	width: 70%;
+	overflow: hidden;
+	height: 80vh;
+	padding: 15px 15px 15px 15px;
+}
+
+.box-light{
+	width: 30%;
+	overflow: hidden;
+	height: 80vh;
+	padding: 15px 15px 15px 15px;
+}
+
+/*testimonial //////////////////////////////////////*/
+
+.testimonial-section{
+	padding: 100px 250px 100px 250px;
+	width: 100%;
+	background: #F3F2F1;
+	display: flex;flex-direction: column;
+	align-items: center;
+	margin-bottom: 150px;
+}
+
+.brand-trstimonial{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin-bottom: 65px;
+}
+
+.brand-trstimonial a img{
+	width: 100%;
+}
+
+.text-tesimonial p{
+	font-family: Telegraf;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 2.1vw;
+	line-height: 150%;
+	color: #000000;
+	margin-bottom: 50px;
+}
+
+.cta-classic{
+	font-family: Avenir-roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.9vw;
+	line-height: 130%;
+	text-decoration-line: underline;
+	color: #000000;
+}
+
+/*.cv-section /////////////////////////////cv-section*/
+
+.cv-section{
+	padding: 0px 250px 100px 250px;
+	width: 100%;
+}
+
