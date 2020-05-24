@@ -252,5 +252,69 @@ h3{
 .cv-section{
 	padding: 0px 250px 100px 250px;
 	width: 100%;
+
 }
 
+.cv-content{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+
+.cv-box{
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.cv-box-all{
+	display: flex;flex-direction: column;
+}
+
+.cv-box div:first-child{
+	overflow: hidden;
+	width: 84px;
+	height: 100%;
+}
+
+.img-cv{
+	-o-object-fit: cover;
+	   object-fit: cover;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.title-cv{
+	font-family: Avenir-roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1vw;
+	line-height: 150%;
+	color: #000000;
+	margin-bottom: 4px;
+}
+
+.subtitle-cv{
+	font-family: Avenir-roman;
+	font-style: normal;
+	font-weight: 350;
+	font-size: 0.9vw;
+	line-height: 150%;
+	color: #444444;
+	margin-bottom: 4px;
+}
+
+.date-cv{
+	font-family: Avenir-book;
+	font-style: normal;
+	font-weight: 350;
+	font-size: 0.8vw;
+	line-height: 150%;
+	color: #828282;
+
+}
+
+.cv-box div:last-child{
+	margin-left: 15px;
+}
