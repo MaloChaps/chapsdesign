@@ -1,0 +1,173 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 425px) {
+
+.mobile-header{
+
+}
+
+.header-desktop{
+	display: none;
+}
+
+.hero-home{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 80vh;
+}
+
+.text-hero{
+	width: 100%;
+}
+
+.text-hero p {
+	font-size: 8vw;
+	 margin-bottom: 150px;
+}
+
+h2, h2 a{
+	 font-size: 3.844vw;
+    line-height: 190%;
+    width: 65%;
+}
+
+.hero-illu{
+	display: none;
+}
+
+h3{
+	font-size: 6.5vw;
+	margin-bottom: 50px;
+}
+
+.text-recent{
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.text-recent p{
+	font-size: 3.5vw;
+	width: 100%;
+	line-height: 170%;
+}
+
+.line {
+    width: 100px;
+    height: 8px;
+    background: black;
+    margin-bottom: 50px;
+}
+
+.box-medium, .box-large, .box-light{
+	width: 100%;
+}
+
+.testimonial-section {
+    padding: 180px 150px 180px 150px;
+    margin-bottom: 0px;
+ }
+
+ .brand-trstimonial{
+ 	display: none;
+ }
+
+.text-tesimonial p {
+	font-size: 5vw;
+}
+
+.cta-classic{
+	font-size: 3.5vw;
+}
+
+.cv-section{
+	 padding: 180px 150px 180px 150px
+}
+
+.cv-content{
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.title-cv{
+	font-size: 4vw;
+}
+
+.subtitle-cv{
+	font-size: 3.5vw;
+}
+
+.date-cv{
+	font-size: 3vw;
+}
+
+.cv-box div:first-child{
+	width: 160px;
+}
+
+.cv-box div:last-child{
+	margin-left: 70px;
+}
+
+.cv-box{
+	margin-bottom: 50px;
+}
+
+.contact-form{
+	padding: 160px 150px 180px 150px
+}
+
+.contact-form p{
+	font-size: 8vw;
+	margin-bottom: 70px;
+}
+
+.contact-form img{
+	width: 40%;
+}
+
+.contact-form div a {
+    font-family: Avenir-roman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4vw;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+    background: black;
+    border-radius: 5px;
+    padding: 30px 60px 30px 60px;
+    color: white;
+}
+
+.contact-form img{
+	width: 60%;
+	margin-bottom: 80px;
+}
+
+.info-footer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+..info-footer div{
+	margin-bottom: 100px;
+}
+
+.info-footer div a, h1, footer a:last-child{
+	font-size: 4vw;
+	line-height: 160%;
+}
+
+footer{
+	padding: 160px 150px 180px 150px
+}
+
+footer img {
+    width: 30%;
+    margin-bottom: 100px;
+}
+
+
+}
